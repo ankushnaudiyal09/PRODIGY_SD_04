@@ -1,5 +1,4 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 
 
@@ -63,15 +62,9 @@ int main(){
 
     int arr[9][9];
 
-    vector<vector<int>> board;
-
-    cout << endl
-         << endl
-         << "--------------------------------------- WELCOME TO SUDOKU SOLVER -----------------------------------";
-    cout << endl
-         << endl
-         << "\tNOTE -> ENTER 0 WHERE CELL IS EMPTY :) " << endl;
-         cout<<"\t-> READ ROW AND COL NUMBER FOR NO MISTAKE :) "<<endl<<endl;
+    cout << endl<< endl<< "--------------------------------------- WELCOME TO SUDOKU SOLVER -----------------------------------";
+    cout << endl<< endl<< "\tNOTE -> ENTER 0 WHERE CELL IS EMPTY :) " << endl;
+    cout<<"\t-> READ ROW AND COL NUMBER FOR NO MISTAKE :) "<<endl<<endl;
 
     cout << "->enter a valid sudoku : " << endl<<endl;
 
@@ -100,9 +93,7 @@ int main(){
 
     solve(arr);
 
-    cout << endl
-         << "\t-> HERE IS THE SOLUTION :" << endl
-         << endl;
+    cout << endl  << "\t-> HERE IS THE SOLUTION :" << endl<< endl;
 
     for (int i = 0; i < grid; i++)
     {
