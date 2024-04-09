@@ -7,7 +7,7 @@ press 0 where cell is empty , otherwise each time the code asks you to enter row
 
 here is the example of a 9 * 9 matrix , supposing we enter 0 always.
 
-          col  col  col col col col col col col
+   col  col  col col col col col col col
             1   2   3   4   5   6   7   8   9
 row 1 ->    0   0   0   0   0   0   0   0   0
 
